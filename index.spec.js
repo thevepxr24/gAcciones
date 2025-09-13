@@ -11,3 +11,9 @@ test("Suma de dos numeros",()=>{
     console.log(`El resultado de la suma es ${resultado}`);
     expect(resultado).toBe(8);
 });
+
+test("Resta de dos numeros with fail",()=>{
+    const resultado = dice.resta(10,5);
+    console.log(`El resultado de la resta es ${resultado}`);
+    expect(resultado).toBe(6);
+});
